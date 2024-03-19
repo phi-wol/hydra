@@ -3,8 +3,9 @@
 
 Philipp Wolters, Johannes Gilg, Torben Teepe, Fabian Herzog, Anouar Laouichi, Martin Hofmann, Gerhard Rigoll
 
+[![arxiv](https://img.shields.io/badge/arXiv-2403.07746-red)](https://arxiv.org/abs/2403.07746)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unleashing-hydra-hybrid-fusion-depth/3d-object-detection-on-nuscenes-camera-radar)](https://paperswithcode.com/sota/3d-object-detection-on-nuscenes-camera-radar?p=unleashing-hydra-hybrid-fusion-depth)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unleashing-hydra-hybrid-fusion-depth/3d-object-detection-on-nuscenes-camera-radar)](https://paperswithcode.com/sota/3d-object-detection-on-nuscenes-camera-radar?p=unleashing-hydra-hybrid-fusion-depth)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/unleashing-hydra-hybrid-fusion-depth/3d-multi-object-tracking-on-nuscenes-camera-2)](https://paperswithcode.com/sota/3d-multi-object-tracking-on-nuscenes-camera-2?p=unleashing-hydra-hybrid-fusion-depth)
 
 ## Introduction
 
