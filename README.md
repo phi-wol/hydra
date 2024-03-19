@@ -9,7 +9,7 @@ Philipp Wolters, Johannes Gilg, Torben Teepe, Fabian Herzog, Anouar Laouichi, Ma
 
 ## Introduction
 
-This repository is an official implementation of [HyDRa](https://arxiv.org/abs/2308.02236), our novel camera-radar fusion architecture for 3D perception. 
+This repository is an official implementation of [HyDRa](https://arxiv.org/abs/2403.07746), our novel camera-radar fusion architecture for 3D perception. 
 
 <p align="center">
 <img src="figs/occ_comp.jpg" width=90% height=90%>
@@ -17,7 +17,7 @@ This repository is an official implementation of [HyDRa](https://arxiv.org/abs/2
 
 ## News
 - `[2024/3/19]` Official PyTorch implementation is coming soon.
-- `[2024/3/12]` Our preprint is available on [arXiv](https://arxiv.org/abs/2308.02236).
+- `[2024/3/12]` Our preprint is available on [arXiv](https://arxiv.org/abs/2403.07746).
 
 ## Getting Started
 
