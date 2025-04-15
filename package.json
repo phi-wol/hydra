@@ -14,8 +14,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
-    "deploy-ssh": "rm -rf public && yarn run build && gh-pages -d public -b gh-pages -r git@github.com:phi-wol/hydra",
-    "deploy": "rm -rf public && yarn run build && gh-pages -d public -b gh-pages -r https://github.com/phi-wol/hydra",
+    "deploy-ssh": "rm -rf public && yarn run build --prefix-paths && gh-pages -d public -b gh-pages -r git@github.com:phi-wol/hydra",
+    "deploy": "rm -rf public && yarn run build --prefix-paths && gh-pages -d public -b gh-pages -r https://github.com/phi-wol/hydra",
     "staging": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages"
   },
   "dependencies": {
