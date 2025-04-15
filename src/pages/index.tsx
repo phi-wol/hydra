@@ -1,22 +1,22 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
-
+import { withPrefix } from "gatsby"
 
 import { FaArrowUp, FaFilePdf, FaVideo } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
 import { LuTextSelect } from "react-icons/lu";
 
 // Import videos from static directory
-const night_results = "/videos/vis_results_hydra_r100_val_night.mp4";
-const rain_results = "/videos/vis_results_hydra_r100_val_rain.mp4";
+const night_results = withPrefix("/videos/vis_results_hydra_r100_val_night.mp4");
+const rain_results = withPrefix("/videos/vis_results_hydra_r100_val_rain.mp4");
 
 // Import teaser figure
-import teaser_figure from "./figs/trafo_comp_v6.png";
+const teaser_figure = withPrefix("/figs/trafo_comp_v6.png");
 
 // Import occupancy comparison figures
-import occ_comp_1 from "./figs/occ_comp_1x400.jpg";
-import occ_comp_2 from "./figs/occ_comp_2x400.jpg";
-import occ_comp_3 from "./figs/occ_comp_3x400.jpg";
+const occ_comp_1 = withPrefix("/figs/occ_comp_1x400.jpg");
+const occ_comp_2 = withPrefix("/figs/occ_comp_2x400.jpg");
+const occ_comp_3 = withPrefix("/figs/occ_comp_3x400.jpg");
 
 interface TitleProps {
     children: React.ReactNode;
