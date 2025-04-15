@@ -1,0 +1,24 @@
+@tailwind base;
+html {
+    scroll-behavior: smooth;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+video::-webkit-media-controls-panel,
+video:hover::-webkit-media-controls-panel {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px !important;
+    background-color: black !important;
+    animation: color_change 0s !important;
+    animation-delay: 0s !important;
+}
+video::-webkit-media-controls-panel {
+    opacity: 0;
+}
+video:hover::-webkit-media-controls-panel {
+    opacity: 0.75;
+}

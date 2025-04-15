@@ -1,0 +1,57 @@
+{
+  "name": "feature-fields-manipulation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "feature-fields-manipulation",
+  "author": "Ge Yang <ge.ike.yang@gmail.com>, William Shen <willshen@mit.edu>",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "NODE_OPTIONS=--max_old_space_size=4096 gatsby develop",
+    "start": "NODE_OPTIONS=--max_old_space_size=4096 gatsby develop",
+    "build": "NODE_OPTIONS=--max_old_space_size=4096 gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit",
+    "deploy-ssh": "rm -rf public && yarn run build && gh-pages -d public -b gh-pages -r git@github.com:phi-wol/hydra.github.io.git",
+    "deploy": "rm -rf public && yarn run build && gh-pages -d public -b gh-pages -r https://github.com/phi-wol/hydra.github.io.git",
+    "staging": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages"
+  },
+  "dependencies": {
+    "@mdx-js/react": "2.1.5",
+    "@tailwindcss/container-queries": "0.1.1",
+    "@tailwindcss/forms": "0.5.3",
+    "@tailwindcss/typography": "0.5.9",
+    "autoprefixer": "10.4.14",
+    "flowbite": "1.7.0",
+    "flowbite-react": "0.4.7",
+    "flowbite-typography": "1.0.3",
+    "gatsby": "4.24.8",
+    "gatsby-plugin-google-gtag": "4.24.0",
+    "gatsby-plugin-manifest": "4.24.0",
+    "gatsby-plugin-mdx": "4.3.0",
+    "gatsby-plugin-postcss": "5.24.0",
+    "gatsby-plugin-sitemap": "5.24.0",
+    "gatsby-source-filesystem": "4.24.0",
+    "postcss": "8.4.24",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "4.10.1",
+    "react-multi-carousel": "2.8.4",
+    "tailwindcss": "3.3.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "0.4.2",
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.33",
+    "@types/react-dom": "18.0.11",
+    "file-loader": "6.2.0",
+    "gh-pages": "^6.3.0",
+    "typescript": "5.0.3"
+  },
+  "resolutions": {
+    "msgpackr": "1.8.5",
+    "lmdb": "2.5.3"
+  }
+}
