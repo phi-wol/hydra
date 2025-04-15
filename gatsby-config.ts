@@ -3,7 +3,7 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
     siteMetadata: {
         title: `Unleashing HyDRa`,
-        siteUrl: `https://phi-wol.github.io/hydra.github.io`
+        siteUrl: `https://phi-wol.github.io/hydra`
     },
     pathPrefix: "/hydra",
     // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
